@@ -12,13 +12,13 @@ def main():
 
     result = 0
     if operation == "+":
-        print("Not implemented yet")
+        result = add(num1, num2)
     elif operation == "-":
-        print("Not implemented yet")
+        result = subtract(num1, num2)
     elif operation == "*":
-        print("Not implemented yet")
+        result = multiply(num1, num2)
     elif operation == "/":
-        print("Not implemented yet")
+        result = divide(num1, num2)
     else:
         print("Invalid operation")
 
